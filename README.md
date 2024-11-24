@@ -43,9 +43,6 @@ The app will run on `http://localhost:5000`.
 - Once logged in, you can start sending messages to other users who are online.
 - Enjoy real-time chat and seamless communication!
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Contributing
 Feel free to fork this repository and submit pull requests. Any contributions are welcome!
 

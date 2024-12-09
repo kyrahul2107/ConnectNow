@@ -22,7 +22,7 @@ function Search() {
     }
   };
   return (
-    <div className=" h-[10vh]">
+    <div >
       <div className="px-6 py-4">
         <form onSubmit={handleSubmit}>
           <div className="flex space-x-3">

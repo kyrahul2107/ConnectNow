@@ -14,7 +14,7 @@ function Chatuser() {
 
   // console.log(selectedConversation.fullname);
   return (
-    <div className="relative flex items-center h-[8%] justify-center gap-4 bg-slate-800 hover:bg-slate-700 duration-300 rounded-md">
+    <div className="relative flex items-center h-20 justify-center gap-4 bg-slate-800 hover:bg-slate-700 duration-300 rounded-md">
       <label
         htmlFor="my-drawer-2"
         className="btn btn-ghost drawer-button lg:hidden absolute left-5"

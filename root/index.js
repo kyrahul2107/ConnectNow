@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import path from "path";
-import { fileURLToPath } from "url"; // Needed for ES modules
+import { fileURLToPath } from "url";
 
 import userRoute from "./routes/user.route.js";
 import messageRoute from "./routes/message.route.js";

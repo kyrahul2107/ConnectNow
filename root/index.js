@@ -20,14 +20,16 @@ app.use(cors());
 const PORT = process.env.PORT || 3001;
 const URI = process.env.MONGODB_URI || "mongodb://localhost:27017/mydatabase";
 
+console.log('MongoDB URL is',URI);
+
 // MongoDB connection
 const connectToDB = async () => {
     try {
-        await mongoose.connect(URI, { useNewUrlParser: true, useUnifiedTopology: true });
+        await mongoose.connect(URI);
         console.log("Connected to MongoDB");
     } catch (error) {
         console.error("MongoDB connection error:", error);
-        process.exit(1); // Exit process if DB connection fails
+        process.exit(1); 
     }
 };
 connectToDB();
